@@ -1,0 +1,592 @@
+{
+  "extensionName": {
+    "message": "ProxyFlow Containers"
+  },
+  "extensionDesc": {
+    "message": "Controle o roteamento de proxy por Container do Firefox, abas normais, janelas privadas, regras por site e teste rápido de velocidade."
+  },
+  "popupTitle": {
+    "message": "ProxyFlow"
+  },
+  "popupSub": {
+    "message": "Containers"
+  },
+  "statusLoading": {
+    "message": "Carregando..."
+  },
+  "openSettings": {
+    "message": "⚙️ Abrir configurações"
+  },
+  "popupDesc": {
+    "message": "Proxy por container, abas normais, janela privada e sites específicos."
+  },
+  "mode_direct": {
+    "message": "Conexão direta"
+  },
+  "mode_proxy": {
+    "message": "Proxy manual"
+  },
+  "mode_block": {
+    "message": "Bloqueado"
+  },
+  "mode_firefox": {
+    "message": "Usar Firefox"
+  },
+  "mode_inherit": {
+    "message": "Herdando padrão"
+  },
+  "popupError": {
+    "message": "Não foi possível obter o status."
+  },
+  "configTab": {
+    "message": "Configurações"
+  },
+  "tutorialTab": {
+    "message": "Tutorial"
+  },
+  "aboutTab": {
+    "message": "Sobre"
+  },
+  "summaryLabel": {
+    "message": "Resumo:"
+  },
+  "summaryText": {
+    "message": "escolha se cada contexto usa proxy manual, conexão direta, bloqueio ou Firefox. Regras por site têm prioridade."
+  },
+  "generalTitle": {
+    "message": "Geral e containers"
+  },
+  "generalDesc": {
+    "message": "Padrão da extensão, sem container, janela privada e containers do Firefox."
+  },
+  "updateBtn": {
+    "message": "🔄 Atualizar"
+  },
+  "rulesTitle": {
+    "message": "Regras por site"
+  },
+  "rulesDesc": {
+    "message": "Crie regras por domínio, subdomínio ou URL específica."
+  },
+  "addBtn": {
+    "message": "+ Adicionar"
+  },
+  "rulesHint": {
+    "message": "Exemplos: youtube.com, *.empresa.com, https://sistema.empresa.com/*"
+  },
+  "noRules": {
+    "message": "Nenhuma regra por site ainda. Clique em “Adicionar”."
+  },
+  "fastProxiesTitle": {
+    "message": "Proxies públicos rápidos"
+  },
+  "fastProxiesDesc": {
+    "message": "Busca em fontes gratuitas, testa HTTPS real e salva os melhores."
+  },
+  "fetchTestBtn": {
+    "message": "⚡ Obter e testar"
+  },
+  "sourceLabel": {
+    "message": "Fonte gratuita"
+  },
+  "limitLabel": {
+    "message": "Quantidade"
+  },
+  "concurrencyLabel": {
+    "message": "Simultâneos"
+  },
+  "saveBestLabel": {
+    "message": "Salvar melhores"
+  },
+  "timeoutLabel": {
+    "message": "Timeout"
+  },
+  "applyTargetLabel": {
+    "message": "Aplicar em"
+  },
+  "useBestBtn": {
+    "message": "Usar melhor salvo"
+  },
+  "noFastSaved": {
+    "message": "Nenhum proxy rápido salvo ainda."
+  },
+  "txtImportTitle": {
+    "message": "📄 Importar proxies de arquivo .txt"
+  },
+  "txtImportDesc": {
+    "message": "Cole ou importe uma lista de proxies. A extensão detecta e formata automaticamente."
+  },
+  "txtPlaceholder": {
+    "message": "Cole aqui proxies no formato:\nsocks5://1.2.3.4:1080\nhttp://5.6.7.8:8080\n9.10.11.12:3128\n(ou importe um arquivo .txt)"
+  },
+  "txtDefaultProtoLabel": {
+    "message": "Protocolo padrão (para linhas sem prefixo)"
+  },
+  "openTxtBtn": {
+    "message": "📂 Abrir .txt"
+  },
+  "parseTxtBtn": {
+    "message": "🔍 Detectar proxies"
+  },
+  "testTxtBtn": {
+    "message": "⚡ Testar lista"
+  },
+  "clearTxtBtn": {
+    "message": "🗑️ Limpar"
+  },
+  "advancedTitle": {
+    "message": "Preferências avançadas"
+  },
+  "advancedDesc": {
+    "message": "Configurações de comportamento do proxy."
+  },
+  "dnsLabel": {
+    "message": "Resolver DNS pelo proxy (SOCKS)"
+  },
+  "dnsDesc": {
+    "message": "O DNS é resolvido no servidor proxy, não no seu dispositivo. Recomendado para privacidade com SOCKS5."
+  },
+  "blockInvalidLabel": {
+    "message": "Bloquear quando proxy inválido"
+  },
+  "blockInvalidDesc": {
+    "message": "Bloqueia a conexão em vez de usar internet direta quando o proxy configurado for inválido."
+  },
+  "backupTitle": {
+    "message": "💾 Backup"
+  },
+  "backupDesc": {
+    "message": "Exporte ou importe as configurações em JSON."
+  },
+  "exportBtn": {
+    "message": "⬇️ Exportar JSON"
+  },
+  "importBtn": {
+    "message": "⬆️ Importar JSON"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privacidade"
+  },
+  "privacyDesc": {
+    "message": "As regras ficam salvas localmente. A busca de proxies consulta as APIs públicas e o teste acessa páginas HTTPS públicas apenas para medir conexão."
+  },
+  "testWaiting": {
+    "message": "Aguardando..."
+  },
+  "testPreparing": {
+    "message": "Preparando $total$ proxies...",
+    "placeholders": {
+      "total": { "content": "$1" }
+    }
+  },
+  "testProgressSummary": {
+    "message": "$done$/$total$ testados • $ok$ OK • $failed$ ignorados",
+    "placeholders": {
+      "done": { "content": "$1" },
+      "total": { "content": "$2" },
+      "ok": { "content": "$3" },
+      "failed": { "content": "$4" }
+    }
+  },
+  "testingActive": {
+    "message": "Testando $idx$/$total$: $input$",
+    "placeholders": {
+      "idx": { "content": "$1" },
+      "total": { "content": "$2" },
+      "input": { "content": "$3" }
+    }
+  },
+  "testLast": {
+    "message": "Último: $input$",
+    "placeholders": {
+      "input": { "content": "$1" }
+    }
+  },
+  "testLoadingSource": {
+    "message": "Buscando $limit$ proxies na fonte selecionada...",
+    "placeholders": {
+      "limit": { "content": "$1" }
+    }
+  },
+  "testLoadingSourceList": {
+    "message": "Carregando lista da fonte..."
+  },
+  "testNoProxiesReturned": {
+    "message": "Nenhum proxy retornado pela lista pública."
+  },
+  "testNoProxiesReturnedText": {
+    "message": "Nenhum proxy retornado."
+  },
+  "testTestingProxiesTimeout": {
+    "message": "Testando $count$ proxies. Timeout: $timeout$s por proxy.",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "timeout": { "content": "$2" }
+    }
+  },
+  "testBestResult": {
+    "message": "Concluído: $success$/$tested$ carregaram HTTPS. Ignorados: $failed$. Melhor: $speed$ • $ms$ ms.",
+    "placeholders": {
+      "success": { "content": "$1" },
+      "tested": { "content": "$2" },
+      "failed": { "content": "$3" },
+      "speed": { "content": "$4" },
+      "ms": { "content": "$5" }
+    }
+  },
+  "testBestProxyText": {
+    "message": "Melhor proxy: $input$ • $ms$ ms",
+    "placeholders": {
+      "input": { "content": "$1" },
+      "ms": { "content": "$2" }
+    }
+  },
+  "testAllFailed": {
+    "message": "Nenhum proxy carregou HTTPS completo dentro de $timeout$s. Testados: $tested$. Ignorados: $failed$.",
+    "placeholders": {
+      "timeout": { "content": "$1" },
+      "tested": { "content": "$2" },
+      "failed": { "content": "$3" }
+    }
+  },
+  "testAllFailedText": {
+    "message": "Todos foram ignorados, falharam ou deram timeout."
+  },
+  "testError": {
+    "message": "Erro: $msg$",
+    "placeholders": {
+      "msg": { "content": "$1" }
+    }
+  },
+  "testErrorText": {
+    "message": "Erro ao testar proxies."
+  },
+  "applySuccess": {
+    "message": "Proxy aplicado em: $target$.",
+    "placeholders": {
+      "target": { "content": "$1" }
+    }
+  },
+  "applyNoProxy": {
+    "message": "Nenhum proxy rápido disponível para aplicar."
+  },
+  "ruleAllContexts": {
+    "message": "Todos os contextos"
+  },
+  "ruleDefaultText": {
+    "message": "Padrão da extensão"
+  },
+  "ruleNoContainer": {
+    "message": "Sem container"
+  },
+  "rulePrivate": {
+    "message": "Janela privada"
+  },
+  "ruleUnknown": {
+    "message": "Requisições internas/desconhecidas"
+  },
+  "ruleContainerPrefix": {
+    "message": "Container Firefox"
+  },
+  "ruleActionLabel": {
+    "message": "Ação da regra"
+  },
+  "ruleActionDesc": {
+    "message": "Defina o que fazer quando o site combinar."
+  },
+  "rulePatternPlaceholder": {
+    "message": "youtube.com, *.empresa.com, https://site.com/*"
+  },
+  "ruleStoreLabel": {
+    "message": "Aplicar em"
+  },
+  "ruleInputPlaceholder": {
+    "message": "SOCKS, HTTP ou HTTPS — ex.: socks5://host:1080, http://host:8080 ou host:porta"
+  },
+  "ruleTestBtn": {
+    "message": "Testar"
+  },
+  "ruleRemoveBtn": {
+    "message": "🗑️ Remover"
+  },
+  "ruleActiveLabel": {
+    "message": "Ativa"
+  },
+  "rulePatternLabel": {
+    "message": "Site ou padrão"
+  },
+  "ruleSettingTitle": {
+    "message": "Ação da regra"
+  },
+  "ruleSettingDesc": {
+    "message": "Defina o que fazer quando o site combinar."
+  },
+  "configError": {
+    "message": "Erro ao carregar configurações."
+  },
+  "txtNoText": {
+    "message": "Nenhum texto para analisar. Cole proxies ou importe um arquivo."
+  },
+  "txtNoProxies": {
+    "message": "Nenhum proxy válido encontrado. Verifique o formato (ex: 1.2.3.4:1080)."
+  },
+  "txtParsedSuccess": {
+    "message": "✅ $count$ proxies detectados e formatados. Clique em \"⚡ Testar lista\" para iniciar.",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "txtTesting": {
+    "message": "Testando $count$ proxies... (timeout $timeout$s por proxy)",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "timeout": { "content": "$2" }
+    }
+  },
+  "txtCompleted": {
+    "message": "Concluído: $success$/$tested$ carregaram HTTPS. Melhor: $speed$ • $ms$ ms.",
+    "placeholders": {
+      "success": { "content": "$1" },
+      "tested": { "content": "$2" },
+      "speed": { "content": "$3" },
+      "ms": { "content": "$4" }
+    }
+  },
+  "txtAllFailed": {
+    "message": "Nenhum proxy da lista carregou HTTPS dentro de $timeout$s. Testados: $tested$.",
+    "placeholders": {
+      "timeout": { "content": "$1" },
+      "tested": { "content": "$2" }
+    }
+  },
+  "txtReadError": {
+    "message": "Não foi possível ler o arquivo."
+  },
+  "jsonImportError": {
+    "message": "Não foi possível importar o JSON."
+  },
+  "copySuccess": {
+    "message": "✅ Endereço copiado!"
+  },
+  "copyManual": {
+    "message": "Selecione e copie manualmente."
+  },
+  "speed_fast": {
+    "message": "rápido"
+  },
+  "speed_medium": {
+    "message": "médio"
+  },
+  "speed_slow": {
+    "message": "lento"
+  },
+  "speed_fail": {
+    "message": "falhou"
+  },
+  "speed_timeout": {
+    "message": "timeout / ignorado"
+  },
+  "speed_ignored": {
+    "message": "ignorado"
+  },
+  "speed_unknown": {
+    "message": "sem medição"
+  },
+  "testResultText": {
+    "message": "$label$: $msg$ • $ms$ ms • limite $timeout$s • IP: $ip$ ($loc$)",
+    "placeholders": {
+      "label": { "content": "$1" },
+      "msg": { "content": "$2" },
+      "ms": { "content": "$3" },
+      "timeout": { "content": "$4" },
+      "ip": { "content": "$5" },
+      "loc": { "content": "$6" }
+    }
+  },
+  "tutorialHeroText": {
+    "message": "Como usar o ProxyFlow Containers"
+  },
+  "tutorialHeroSub": {
+    "message": "Aprenda a configurar proxies por contexto no Firefox em poucos minutos."
+  },
+  "step1Title": {
+    "message": "Entendendo os contextos do Firefox"
+  },
+  "step1Desc": {
+    "message": "O Firefox separa as sessões em contextos. Cada contexto tem seus próprios cookies e pode usar um proxy diferente:"
+  },
+  "step1P1": {
+    "message": "Base para tudo que não tem regra específica."
+  },
+  "step1P2": {
+    "message": "Abas normais abertas sem um container específico."
+  },
+  "step1P3": {
+    "message": "Navegação privada. Ative a extensão em janelas privadas nas configurações do Firefox."
+  },
+  "step1P4": {
+    "message": "Contextos separados que você cria (ex.: Trabalho, Pessoal, Compras)."
+  },
+  "step2Title": {
+    "message": "Configurando o proxy padrão"
+  },
+  "step2Desc": {
+    "message": "Na seção \"Geral e containers\", configure o Padrão da extensão primeiro — ele serve de base para os outros contextos que usam \"Herdar padrão\":"
+  },
+  "step2Tip": {
+    "message": "💡 Formatos aceitos: socks5://host:porta, http://host:porta ou só host:porta (padrão SOCKS5)"
+  },
+  "step3Title": {
+    "message": "Modos disponíveis"
+  },
+  "step3Desc1": {
+    "message": "Acessa a internet sem nenhum proxy."
+  },
+  "step3Desc2": {
+    "message": "Usa o proxy que você configurar."
+  },
+  "step3Desc3": {
+    "message": "Impede qualquer conexão neste contexto."
+  },
+  "step3Desc4": {
+    "message": "Segue o modo do \"Padrão da extensão\"."
+  },
+  "step3Desc5": {
+    "message": "Usa as configurações de proxy do próprio Firefox."
+  },
+  "step4Title": {
+    "message": "Regras por site"
+  },
+  "step4Desc": {
+    "message": "Crie regras que têm prioridade sobre os containers. Úteis para forçar ou bloquear proxy em sites específicos:"
+  },
+  "step4Tip": {
+    "message": "⚡ Use \"Todos os contextos\" no campo \"Aplicar em\" para que a regra valha em qualquer container."
+  },
+  "step5Title": {
+    "message": "Testando seu proxy"
+  },
+  "step5Desc": {
+    "message": "Clique em \"Testar\" em qualquer perfil ou regra. A extensão vai:"
+  },
+  "step5Item1": {
+    "message": "Conectar via HTTPS usando o proxy configurado"
+  },
+  "step5Item2": {
+    "message": "Exibir o IP público visto pelo servidor (Cloudflare)"
+  },
+  "step5Item3": {
+    "message": "Mostrar a velocidade: rápido / médio / lento"
+  },
+  "step5Item4": {
+    "message": "Indicar o país da saída pelo código de localização"
+  },
+  "step6Title": {
+    "message": "Proxies públicos rápidos"
+  },
+  "step6Desc": {
+    "message": "Não tem proxy? Use a busca automática de fontes públicas:"
+  },
+  "step6Item1": {
+    "message": "Escolha o protocolo — SOCKS5 é o mais anônimo"
+  },
+  "step6Item2": {
+    "message": "Clique em \"⚡ Obter e testar\""
+  },
+  "step6Item3": {
+    "message": "A extensão busca, testa HTTPS real e salva os que funcionam"
+  },
+  "step6Item4": {
+    "message": "Use \"Usar melhor salvo\" para aplicar o mais rápido"
+  },
+  "step6Tip": {
+    "message": "⚠️ Proxies públicos são instáveis e podem ser monitorados. Nunca use para login, banco, e-mail ou dados sensíveis."
+  },
+  "step7Title": {
+    "message": "Preferências avançadas"
+  },
+  "step7Item1": {
+    "message": "Resolver DNS pelo proxy (SOCKS): o DNS é resolvido no servidor proxy, não no seu dispositivo. Aumenta privacidade e evita vazamentos de DNS."
+  },
+  "step7Item2": {
+    "message": "Bloquear quando proxy inválido: se um contexto está configurado para proxy mas o proxy não é válido, a conexão é bloqueada em vez de cair na internet direta."
+  },
+  "aboutHeroText": {
+    "message": "ProxyFlow Containers"
+  },
+  "aboutHeroSub": {
+    "message": "Versão 1.2.1 — Extensão para Firefox"
+  },
+  "aboutCreditsTitle": {
+    "message": "✍️ Créditos"
+  },
+  "aboutCreditsRole": {
+    "message": "Criador & desenvolvedor"
+  },
+  "aboutCreditsDesc": {
+    "message": "Extensão criada com cuidado para ajudar usuários do Firefox a gerenciar proxies por contexto de forma simples e poderosa."
+  },
+  "aboutCoffeeTitle": {
+    "message": "☕ Me pague um café"
+  },
+  "aboutCoffeeDesc": {
+    "message": "Se esta extensão te ajudou, considere enviar um Bitcoin como agradecimento. Todo apoio é muito bem-vindo!"
+  },
+  "aboutBtcLabel": {
+    "message": "Endereço Bitcoin"
+  },
+  "aboutBtcBtn": {
+    "message": "📋 Copiar endereço"
+  },
+  "aboutPrivacyTitle": {
+    "message": "🔒 Privacidade & Segurança"
+  },
+  "aboutPrivacyItem1Title": {
+    "message": "Sem coleta de dados"
+  },
+  "aboutPrivacyItem1Desc": {
+    "message": "Nenhum histórico, senha, cookie ou conteúdo de página é coletado ou transmitido."
+  },
+  "aboutPrivacyItem2Title": {
+    "message": "Armazenamento local"
+  },
+  "aboutPrivacyItem2Desc": {
+    "message": "Todas as configurações ficam salvas apenas no seu Firefox, nunca em servidores externos."
+  },
+  "aboutPrivacyItem3Title": {
+    "message": "Conexões externas mínimas"
+  },
+  "aboutPrivacyItem3Desc": {
+    "message": "A extensão só acessa a internet quando você solicita explicitamente (teste ou busca de proxies)."
+  },
+  "aboutPrivacyItem4Title": {
+    "message": "Proxies públicos"
+  },
+  "aboutPrivacyItem4Desc": {
+    "message": "Proxies públicos podem ser monitorados. Não use para dados sensíveis (banco, e-mail, senhas)."
+  },
+  "progressPanelTitle": {
+    "message": "🔍 Teste de proxies"
+  },
+  "progressPanelSummaryDefault": {
+    "message": "Aguardando..."
+  },
+  "progressPanelLogDefault": {
+    "message": "Nenhum teste em andamento."
+  },
+  "useBtn": {
+    "message": "Usar"
+  },
+  "ruleDefaultDesc": {
+    "message": "Usado quando nada mais combinar."
+  },
+  "ruleNoContainerDesc": {
+    "message": "Abas normais fora dos Containers."
+  },
+  "rulePrivateDesc": {
+    "message": "Funciona se a extensão estiver liberada para janelas privadas."
+  },
+  "ruleUnknownDesc": {
+    "message": "Downloads internos, extensões ou abas sem identificação."
+  }
+}

@@ -1,0 +1,592 @@
+{
+  "extensionName": {
+    "message": "ProxyFlow Containers"
+  },
+  "extensionDesc": {
+    "message": "Control proxy routing by Firefox Container, no-container tabs, private windows, site rules, and public proxy speed testing."
+  },
+  "popupTitle": {
+    "message": "ProxyFlow"
+  },
+  "popupSub": {
+    "message": "Containers"
+  },
+  "statusLoading": {
+    "message": "Loading..."
+  },
+  "openSettings": {
+    "message": "⚙️ Open settings"
+  },
+  "popupDesc": {
+    "message": "Proxy per container, normal tabs, private windows, and specific sites."
+  },
+  "mode_direct": {
+    "message": "Direct connection"
+  },
+  "mode_proxy": {
+    "message": "Manual proxy"
+  },
+  "mode_block": {
+    "message": "Blocked"
+  },
+  "mode_firefox": {
+    "message": "Use Firefox"
+  },
+  "mode_inherit": {
+    "message": "Inherit default"
+  },
+  "popupError": {
+    "message": "Could not retrieve status."
+  },
+  "configTab": {
+    "message": "Settings"
+  },
+  "tutorialTab": {
+    "message": "Tutorial"
+  },
+  "aboutTab": {
+    "message": "About"
+  },
+  "summaryLabel": {
+    "message": "Summary:"
+  },
+  "summaryText": {
+    "message": "choose whether each context uses manual proxy, direct connection, blocking, or Firefox. Site rules have priority."
+  },
+  "generalTitle": {
+    "message": "General & containers"
+  },
+  "generalDesc": {
+    "message": "Extension default, no-container, private window, and Firefox containers."
+  },
+  "updateBtn": {
+    "message": "🔄 Refresh"
+  },
+  "rulesTitle": {
+    "message": "Site rules"
+  },
+  "rulesDesc": {
+    "message": "Create rules by domain, subdomain, or specific URL."
+  },
+  "addBtn": {
+    "message": "+ Add"
+  },
+  "rulesHint": {
+    "message": "Examples: youtube.com, *.company.com, https://system.company.com/*"
+  },
+  "noRules": {
+    "message": "No site rules yet. Click \"Add\"."
+  },
+  "fastProxiesTitle": {
+    "message": "Fast public proxies"
+  },
+  "fastProxiesDesc": {
+    "message": "Fetches from free sources, tests real HTTPS, and saves the best ones."
+  },
+  "fetchTestBtn": {
+    "message": "⚡ Fetch and test"
+  },
+  "sourceLabel": {
+    "message": "Free source"
+  },
+  "limitLabel": {
+    "message": "Limit"
+  },
+  "concurrencyLabel": {
+    "message": "Concurrency"
+  },
+  "saveBestLabel": {
+    "message": "Save best"
+  },
+  "timeoutLabel": {
+    "message": "Timeout"
+  },
+  "applyTargetLabel": {
+    "message": "Apply to"
+  },
+  "useBestBtn": {
+    "message": "Use best saved"
+  },
+  "noFastSaved": {
+    "message": "No fast proxies saved yet."
+  },
+  "txtImportTitle": {
+    "message": "📄 Import proxies from .txt file"
+  },
+  "txtImportDesc": {
+    "message": "Paste or import a list of proxies. The extension detects and formats automatically."
+  },
+  "txtPlaceholder": {
+    "message": "Paste proxies here in format:\nsocks5://1.2.3.4:1080\nhttp://5.6.7.8:8080\n9.10.11.12:3128\n(or import a .txt file)"
+  },
+  "txtDefaultProtoLabel": {
+    "message": "Default protocol (for lines without prefix)"
+  },
+  "openTxtBtn": {
+    "message": "📂 Open .txt"
+  },
+  "parseTxtBtn": {
+    "message": "🔍 Detect proxies"
+  },
+  "testTxtBtn": {
+    "message": "⚡ Test list"
+  },
+  "clearTxtBtn": {
+    "message": "🗑️ Clear"
+  },
+  "advancedTitle": {
+    "message": "Advanced preferences"
+  },
+  "advancedDesc": {
+    "message": "Proxy behavior configurations."
+  },
+  "dnsLabel": {
+    "message": "Resolve DNS through proxy (SOCKS)"
+  },
+  "dnsDesc": {
+    "message": "DNS is resolved at the proxy server, not on your device. Recommended for privacy with SOCKS5."
+  },
+  "blockInvalidLabel": {
+    "message": "Block when proxy is invalid"
+  },
+  "blockInvalidDesc": {
+    "message": "Blocks connection instead of using direct internet when the configured proxy is invalid."
+  },
+  "backupTitle": {
+    "message": "💾 Backup"
+  },
+  "backupDesc": {
+    "message": "Export or import configurations in JSON."
+  },
+  "exportBtn": {
+    "message": "⬇️ Export JSON"
+  },
+  "importBtn": {
+    "message": "⬆️ Import JSON"
+  },
+  "privacyTitle": {
+    "message": "🔒 Privacy"
+  },
+  "privacyDesc": {
+    "message": "Rules are saved locally. Proxy fetch queries public APIs and testing accesses public HTTPS pages only to measure latency."
+  },
+  "testWaiting": {
+    "message": "Waiting..."
+  },
+  "testPreparing": {
+    "message": "Preparing $total$ proxies...",
+    "placeholders": {
+      "total": { "content": "$1" }
+    }
+  },
+  "testProgressSummary": {
+    "message": "$done$/$total$ tested • $ok$ OK • $failed$ ignored",
+    "placeholders": {
+      "done": { "content": "$1" },
+      "total": { "content": "$2" },
+      "ok": { "content": "$3" },
+      "failed": { "content": "$4" }
+    }
+  },
+  "testingActive": {
+    "message": "Testing $idx$/$total$: $input$",
+    "placeholders": {
+      "idx": { "content": "$1" },
+      "total": { "content": "$2" },
+      "input": { "content": "$3" }
+    }
+  },
+  "testLast": {
+    "message": "Last: $input$",
+    "placeholders": {
+      "input": { "content": "$1" }
+    }
+  },
+  "testLoadingSource": {
+    "message": "Fetching $limit$ proxies from selected source...",
+    "placeholders": {
+      "limit": { "content": "$1" }
+    }
+  },
+  "testLoadingSourceList": {
+    "message": "Loading source list..."
+  },
+  "testNoProxiesReturned": {
+    "message": "No proxies returned by the public list."
+  },
+  "testNoProxiesReturnedText": {
+    "message": "No proxies returned."
+  },
+  "testTestingProxiesTimeout": {
+    "message": "Testing $count$ proxies. Timeout: $timeout$s per proxy.",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "timeout": { "content": "$2" }
+    }
+  },
+  "testBestResult": {
+    "message": "Completed: $success$/$tested$ loaded HTTPS. Ignored: $failed$. Best: $speed$ • $ms$ ms.",
+    "placeholders": {
+      "success": { "content": "$1" },
+      "tested": { "content": "$2" },
+      "failed": { "content": "$3" },
+      "speed": { "content": "$4" },
+      "ms": { "content": "$5" }
+    }
+  },
+  "testBestProxyText": {
+    "message": "Best proxy: $input$ • $ms$ ms",
+    "placeholders": {
+      "input": { "content": "$1" },
+      "ms": { "content": "$2" }
+    }
+  },
+  "testAllFailed": {
+    "message": "No proxy loaded complete HTTPS within $timeout$s. Tested: $tested$. Ignored: $failed$.",
+    "placeholders": {
+      "timeout": { "content": "$1" },
+      "tested": { "content": "$2" },
+      "failed": { "content": "$3" }
+    }
+  },
+  "testAllFailedText": {
+    "message": "All were ignored, failed, or timed out."
+  },
+  "testError": {
+    "message": "Error: $msg$",
+    "placeholders": {
+      "msg": { "content": "$1" }
+    }
+  },
+  "testErrorText": {
+    "message": "Error testing proxies."
+  },
+  "applySuccess": {
+    "message": "Proxy applied to: $target$.",
+    "placeholders": {
+      "target": { "content": "$1" }
+    }
+  },
+  "applyNoProxy": {
+    "message": "No fast proxy available to apply."
+  },
+  "ruleAllContexts": {
+    "message": "All contexts"
+  },
+  "ruleDefaultText": {
+    "message": "Extension default"
+  },
+  "ruleNoContainer": {
+    "message": "No container"
+  },
+  "rulePrivate": {
+    "message": "Private window"
+  },
+  "ruleUnknown": {
+    "message": "Internal/unknown requests"
+  },
+  "ruleContainerPrefix": {
+    "message": "Firefox Container"
+  },
+  "ruleActionLabel": {
+    "message": "Rule action"
+  },
+  "ruleActionDesc": {
+    "message": "Define what to do when the site matches."
+  },
+  "rulePatternPlaceholder": {
+    "message": "youtube.com, *.company.com, https://site.com/*"
+  },
+  "ruleStoreLabel": {
+    "message": "Apply to"
+  },
+  "ruleInputPlaceholder": {
+    "message": "SOCKS, HTTP or HTTPS — e.g. socks5://host:1080, http://host:8080 or host:port"
+  },
+  "ruleTestBtn": {
+    "message": "Test"
+  },
+  "ruleRemoveBtn": {
+    "message": "🗑️ Remove"
+  },
+  "ruleActiveLabel": {
+    "message": "Active"
+  },
+  "rulePatternLabel": {
+    "message": "Site or pattern"
+  },
+  "ruleSettingTitle": {
+    "message": "Rule action"
+  },
+  "ruleSettingDesc": {
+    "message": "Define what to do when the site matches."
+  },
+  "configError": {
+    "message": "Error loading configurations."
+  },
+  "txtNoText": {
+    "message": "No text to parse. Paste proxies or import a file."
+  },
+  "txtNoProxies": {
+    "message": "No valid proxies found. Check format (e.g. 1.2.3.4:1080)."
+  },
+  "txtParsedSuccess": {
+    "message": "✅ $count$ proxies detected and formatted. Click \"⚡ Test list\" to start.",
+    "placeholders": {
+      "count": { "content": "$1" }
+    }
+  },
+  "txtTesting": {
+    "message": "Testing $count$ proxies... (timeout $timeout$s per proxy)",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "timeout": { "content": "$2" }
+    }
+  },
+  "txtCompleted": {
+    "message": "Completed: $success$/$tested$ loaded HTTPS. Best: $speed$ • $ms$ ms.",
+    "placeholders": {
+      "success": { "content": "$1" },
+      "tested": { "content": "$2" },
+      "speed": { "content": "$3" },
+      "ms": { "content": "$4" }
+    }
+  },
+  "txtAllFailed": {
+    "message": "No proxy from the list loaded HTTPS within $timeout$s. Tested: $tested$.",
+    "placeholders": {
+      "timeout": { "content": "$1" },
+      "tested": { "content": "$2" }
+    }
+  },
+  "txtReadError": {
+    "message": "Could not read file."
+  },
+  "jsonImportError": {
+    "message": "Could not import JSON."
+  },
+  "copySuccess": {
+    "message": "✅ Address copied!"
+  },
+  "copyManual": {
+    "message": "Select and copy manually."
+  },
+  "speed_fast": {
+    "message": "fast"
+  },
+  "speed_medium": {
+    "message": "medium"
+  },
+  "speed_slow": {
+    "message": "slow"
+  },
+  "speed_fail": {
+    "message": "failed"
+  },
+  "speed_timeout": {
+    "message": "timeout / ignored"
+  },
+  "speed_ignored": {
+    "message": "ignored"
+  },
+  "speed_unknown": {
+    "message": "unmeasured"
+  },
+  "testResultText": {
+    "message": "$label$: $msg$ • $ms$ ms • limit $timeout$s • IP: $ip$ ($loc$)",
+    "placeholders": {
+      "label": { "content": "$1" },
+      "msg": { "content": "$2" },
+      "ms": { "content": "$3" },
+      "timeout": { "content": "$4" },
+      "ip": { "content": "$5" },
+      "loc": { "content": "$6" }
+    }
+  },
+  "tutorialHeroText": {
+    "message": "How to use ProxyFlow Containers"
+  },
+  "tutorialHeroSub": {
+    "message": "Learn to configure proxies by context in Firefox in just a few minutes."
+  },
+  "step1Title": {
+    "message": "Understanding Firefox Contexts"
+  },
+  "step1Desc": {
+    "message": "Firefox isolates sessions into contexts. Each context has its own cookies and can use a different proxy:"
+  },
+  "step1P1": {
+    "message": "Base for everything without a specific rule."
+  },
+  "step1P2": {
+    "message": "Normal tabs opened without a specific container."
+  },
+  "step1P3": {
+    "message": "Private browsing. Enable the extension in private windows in Firefox settings."
+  },
+  "step1P4": {
+    "message": "Separate contexts you create (e.g. Work, Personal, Shopping)."
+  },
+  "step2Title": {
+    "message": "Configuring the default proxy"
+  },
+  "step2Desc": {
+    "message": "In the \"General & containers\" section, configure the Extension default first — it serves as the base for other contexts using \"Inherit default\":"
+  },
+  "step2Tip": {
+    "message": "💡 Supported formats: socks5://host:port, http://host:port or just host:port (default SOCKS5)"
+  },
+  "step3Title": {
+    "message": "Available modes"
+  },
+  "step3Desc1": {
+    "message": "Accesses the internet without any proxy."
+  },
+  "step3Desc2": {
+    "message": "Uses the proxy you configure."
+  },
+  "step3Desc3": {
+    "message": "Blocks all connections in this context."
+  },
+  "step3Desc4": {
+    "message": "Follows the \"Extension default\" mode."
+  },
+  "step3Desc5": {
+    "message": "Uses Firefox's system proxy settings."
+  },
+  "step4Title": {
+    "message": "Site rules"
+  },
+  "step4Desc": {
+    "message": "Create rules that take priority over containers. Useful to force or block proxy on specific sites:"
+  },
+  "step4Tip": {
+    "message": "⚡ Use \"All contexts\" in the \"Apply to\" field to make the rule work in any container."
+  },
+  "step5Title": {
+    "message": "Testing your proxy"
+  },
+  "step5Desc": {
+    "message": "Click \"Test\" on any profile or rule. The extension will:"
+  },
+  "step5Item1": {
+    "message": "Connect via HTTPS using the configured proxy"
+  },
+  "step5Item2": {
+    "message": "Display the public IP seen by the server (Cloudflare)"
+  },
+  "step5Item3": {
+    "message": "Show speed: fast / medium / slow"
+  },
+  "step5Item4": {
+    "message": "Indicate exit country code"
+  },
+  "step6Title": {
+    "message": "Fast public proxies"
+  },
+  "step6Desc": {
+    "message": "Don't have a proxy? Use the automatic search from public sources:"
+  },
+  "step6Item1": {
+    "message": "Choose the protocol — SOCKS5 is the most anonymous"
+  },
+  "step6Item2": {
+    "message": "Click \"⚡ Fetch and test\""
+  },
+  "step6Item3": {
+    "message": "The extension searches, tests real HTTPS and saves working ones"
+  },
+  "step6Item4": {
+    "message": "Use \"Use best saved\" to apply the fastest one"
+  },
+  "step6Tip": {
+    "message": "⚠️ Public proxies are unstable and can be monitored. Never use for login, banking, email, or sensitive data."
+  },
+  "step7Title": {
+    "message": "Advanced preferences"
+  },
+  "step7Item1": {
+    "message": "Resolve DNS through proxy (SOCKS): DNS is resolved at the proxy server, not on your device. Increases privacy and avoids DNS leaks."
+  },
+  "step7Item2": {
+    "message": "Block when proxy is invalid: if a context is configured for proxy but the proxy is invalid, the connection is blocked instead of falling back to direct internet."
+  },
+  "aboutHeroText": {
+    "message": "ProxyFlow Containers"
+  },
+  "aboutHeroSub": {
+    "message": "Version 1.2.1 — Firefox Extension"
+  },
+  "aboutCreditsTitle": {
+    "message": "✍️ Credits"
+  },
+  "aboutCreditsRole": {
+    "message": "Creator & developer"
+  },
+  "aboutCreditsDesc": {
+    "message": "Extension created with care to help Firefox users manage proxies by context simply and powerfully."
+  },
+  "aboutCoffeeTitle": {
+    "message": "☕ Buy me a coffee"
+  },
+  "aboutCoffeeDesc": {
+    "message": "If this extension helped you, consider sending a Bitcoin as a thank you. All support is highly appreciated!"
+  },
+  "aboutBtcLabel": {
+    "message": "Bitcoin Address"
+  },
+  "aboutBtcBtn": {
+    "message": "📋 Copy address"
+  },
+  "aboutPrivacyTitle": {
+    "message": "🔒 Privacy & Security"
+  },
+  "aboutPrivacyItem1Title": {
+    "message": "No data collection"
+  },
+  "aboutPrivacyItem1Desc": {
+    "message": "No history, password, cookie, or page content is collected or transmitted."
+  },
+  "aboutPrivacyItem2Title": {
+    "message": "Local storage"
+  },
+  "aboutPrivacyItem2Desc": {
+    "message": "All configurations are saved only inside your Firefox, never on external servers."
+  },
+  "aboutPrivacyItem3Title": {
+    "message": "Minimal external connections"
+  },
+  "aboutPrivacyItem3Desc": {
+    "message": "The extension only accesses the internet when you explicitly request it (testing or fetching proxies)."
+  },
+  "aboutPrivacyItem4Title": {
+    "message": "Public proxies"
+  },
+  "aboutPrivacyItem4Desc": {
+    "message": "Public proxies can be monitored. Do not use for sensitive data (bank, email, passwords)."
+  },
+  "progressPanelTitle": {
+    "message": "🔍 Proxy Testing"
+  },
+  "progressPanelSummaryDefault": {
+    "message": "Waiting..."
+  },
+  "progressPanelLogDefault": {
+    "message": "No testing in progress."
+  },
+  "useBtn": {
+    "message": "Use"
+  },
+  "ruleDefaultDesc": {
+    "message": "Used when nothing else matches."
+  },
+  "ruleNoContainerDesc": {
+    "message": "Normal tabs outside Containers."
+  },
+  "rulePrivateDesc": {
+    "message": "Works if the extension is allowed in private windows."
+  },
+  "ruleUnknownDesc": {
+    "message": "Internal downloads, extensions or unidentified tabs."
+  }
+}
